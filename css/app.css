@@ -1,1 +1,32 @@
 /* Write your code here */
+.kitten-list {
+    list-style: none;
+}
+
+.kitten-list li img {
+    cursor: pointer;
+}
+
+.overlay {
+    display:none;
+
+}
+
+.show {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.75);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+.show img {
+    cursor: pointer;
+}
