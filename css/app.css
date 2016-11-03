@@ -1,1 +1,18 @@
 /* Write your code here */
+.iss {
+    display: flex;
+    justify-content: center;
+    border: 1px groove black;
+    line-height: .5em;
+    color: red;
+    padding: 1em;
+}
+
+.iss > h3 {
+    color: blue;
+}
+
+.iss > * {
+    padding-right: 1em;
+    
+}
